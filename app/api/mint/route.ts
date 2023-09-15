@@ -58,7 +58,7 @@ export async function POST(request: Request): Promise<Response> {
     return NextResponse.json(
       {
         transaction: transaction,
-        message: "Increment Counter",
+        message: "Mint an NFT!",
       },
       { status: 200 }
     )
